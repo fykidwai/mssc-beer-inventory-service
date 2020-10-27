@@ -1,4 +1,6 @@
-[![CircleCI](https://circleci.com/gh/springframeworkguru/mssc-beer-inventory-service.svg?style=svg)](https://circleci.com/gh/springframeworkguru/mssc-beer-inventory-service)
+[![CircleCI](https://circleci.com/gh/fykidwai/mssc-beer-inventory-service.svg?style=svg)](https://circleci.com/gh/fykidwai/mssc-beer-inventory-service)
+<br>
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fykidwai_mssc-beer-inventory-service&metric=alert_status)](https://sonarcloud.io/dashboard?id=fykidwai_mssc-beer-inventory-service) <a href="https://sonarcloud.io/dashboard?id=fykidwai_mssc-beer-inventory-service"> <img src="https://sonarcloud.io/images/project_badges/sonarcloud-black.svg" height=15% width=15% /></a><br>
 # MSSC Beer Inventory Service
 
 This repository contains source code examples used to support my on-line courses about the Spring Framework.

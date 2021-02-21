@@ -26,4 +26,6 @@ public interface BeerInventoryRepository extends JpaRepository<BeerInventory, UU
     @Type(type = "org.hibernate.type.UUIDCharType")
     @Column(length = 36, columnDefinition = "varchar(36)", updatable = false, nullable = false)
     List<BeerInventory> findAllByBeerId(UUID beerId);
+
+    List<BeerInventory> findAllByUpc(String upc);
 }

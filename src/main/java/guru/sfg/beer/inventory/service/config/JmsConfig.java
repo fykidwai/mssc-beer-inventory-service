@@ -14,10 +14,11 @@ public class JmsConfig {
     public static final String NEW_INVENTORY_QUEUE = "new-inventory";
     public static final String ALLOCATE_ORDER_QUEUE = "allocate-order";
     public static final String ALLOCATE_ORDER_RESPONSE_QUEUE = "allocate-order-response";
+    public static final String DEALLOCATE_ORDER_QUEUE = "allocate-order";
 
     @Bean
     public MessageConverter messageConverter(final ObjectMapper objectMapper) {
-        final var converter = new MappingJackson2MessageConverter();
+        final MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
         converter.setTargetType(MessageType.TEXT);
         converter.setTypeIdPropertyName("_type");
         converter.setObjectMapper(objectMapper);

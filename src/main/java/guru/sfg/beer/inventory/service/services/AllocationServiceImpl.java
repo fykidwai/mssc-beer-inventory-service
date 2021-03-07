@@ -71,7 +71,9 @@ public class AllocationServiceImpl implements AllocationService {
             } else if (inventory > MN_0) { // partial allocation
                 beerOrderLine.setQuantityAllocated(allocatedQty + inventory);
                 beerInventory.setQuantityOnHand(MN_0);
+            }
 
+            if (beerInventory.getQuantityOnHand() == MN_0) {
                 beerInventoryRepository.delete(beerInventory);
             }
         });

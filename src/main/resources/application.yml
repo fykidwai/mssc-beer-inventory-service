@@ -13,3 +13,7 @@ spring:
     password: simetraehcapa
   zipkin:
     enabled: false
+  security:
+    user:
+      name: good
+      password: bear

@@ -8,7 +8,6 @@ spring:
     name: inventory-service
 # defaults for docker image - vromero/activemq-artemis
   artemis:
-    host: 192.168.99.101
     user: artemis
     password: simetraehcapa
   zipkin:

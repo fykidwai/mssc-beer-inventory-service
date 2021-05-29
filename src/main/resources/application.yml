@@ -6,7 +6,7 @@ server:
 spring:
   application:
     name: inventory-service
-# defaults for docker image - vromero/activemq-artemis
+  # defaults for docker image - vromero/activemq-artemis
   artemis:
     user: artemis
     password: simetraehcapa
@@ -16,3 +16,6 @@ spring:
     user:
       name: good
       password: bear
+  cloud:
+    discovery:
+      enabled: false
